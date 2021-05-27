@@ -1,0 +1,54 @@
+section.text1{
+	background-color: #000;
+	flex-direction:column;
+	align-items: flex-start;
+}
+
+section.text1 h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 3rem;
+	letter-spacing: .01em;
+	font-weight: 700;
+	line-height: 100%;
+	color: #fff;
+   display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction:column;
+	padding-top: 120px;
+	padding-bottom: 140px;
+	padding-left: 80px;
+	
+}
+
+section.text1 h4{
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction:column;
+
+}
+
+section.text1 h4 p1{
+	font-size: 2rem;
+	letter-spacing: .01em;
+	font-weight: 200;
+	line-height: 100%;
+	color: #fff;
+	padding-bottom: 60px;
+	padding-left: 80px;
+}
+
+section.text1 h4 p2{
+	font-size: 2rem;
+	letter-spacing: .01em;
+	font-weight: 200;
+	line-height: 100%;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+
+
+ 

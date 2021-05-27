@@ -1,0 +1,48 @@
+section.contacts{
+	background-color: #000;
+	flex-direction:column;
+	align-items: flex-start;
+}
+
+/*div.best_img{
+position: relative;
+display: flex;
+justify-content:center;
+align-content:center;
+padding-bottom: 80px;
+align-items: center;
+}*/
+
+
+section.contacts h4{
+	font-family: 'Raleway', sans-serif;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction:column;
+
+}
+
+section.contacts h4 p1{
+
+	font-size: 3rem;
+	letter-spacing: .01em;
+	font-weight: 700;
+	line-height: 100%;
+	color: #fff;
+	padding: 90px 0 ;
+	padding-left: 80px;
+
+}
+
+section.contacts h4 p2{
+	font-size: 2rem;
+	letter-spacing: .01em;
+	font-weight: 200;
+	line-height: 100%;
+	color: #fff;
+	padding-bottom: 20px;
+	padding-left: 80px;
+}
+
+

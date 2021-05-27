@@ -1,0 +1,30 @@
+section.beautiful_woman{
+   background-color: #E5E2DB ;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   padding: 0;
+   background-size: cover;
+   background-image: url(../img/artbord3.png);
+
+}
+
+.motivation_text h4 {
+	font-family: 'Raleway', sans-serif;
+	display:flex;
+	justify-content: flex-start;
+	flex-direction:column;
+	align-content:flex-end;
+	font-size: 2rem;
+	letter-spacing: .01em;
+	font-weight: 200;
+	line-height: 100%;
+	color: #fff;
+   padding-left: 80px;
+   padding-top: 40%;
+   padding-bottom: 80px; 
+
+}
+h4 p{
+	padding-bottom: 20px;
+}

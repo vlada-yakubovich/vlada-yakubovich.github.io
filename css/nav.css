@@ -1,0 +1,116 @@
+nav {
+    background-color:#E5E2DB;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 9995;
+}
+
+nav.topfixed {
+    /*background-color: rgba(255,255,255,1);*/
+}
+
+nav .logo {
+    font-size: 1.25rem;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    transition: all .35s cubic-bezier(.15,.2,.2,.95);
+}
+
+
+nav.topfixed .logo {
+    font-size: 1.15rem;
+}
+
+nav.topfixed .navigation li a {
+    color: #000;
+}
+
+nav a {
+    display: block;
+    cursor: pointer;
+}
+
+nav .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+.navigation ul {
+    display: flex;
+    font-size: 1rem;
+    letter-spacing: .02em;
+    list-style: none;
+}
+
+.navigation li a {
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    transition: all .3s ease;
+}
+
+.navigation li a:hover {
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+.navigation button {
+    background: none;
+    border: none;
+    outline: none;
+    display: none; 
+}
+
+@media screen and (max-width: 767px) {
+    
+    nav.topfixed .navigation li a {
+        color: #E5E2DB;
+    }
+
+    .navigation button {
+        position: relative;
+        display: block;
+        margin: 0;
+        z-index: 9999;
+    }
+    
+    .navigation ul {
+        background-color: rgba(10,10,10,.8);
+        position: absolute;
+        padding: 100px 30px 30px 20px;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        min-width: 50%;
+        min-height: 100vh;
+        transform: translateX(100%);
+        transition: all 0.5s;
+        opacity:0;
+        transition-property: transform;
+        transition-duration: .35s;
+/*        transition-delay: .2s;*/
+        transition-timing-function: ease;
+        z-index: 9998;
+    }
+    
+    .navigation.open ul {
+        transform: translateX(0);
+        opacity:1;
+    }
+    
+    .navigation.open .overlay {
+        background-color: rgba(10,10,10, .3);
+        display: block;
+        position: absolute;
+        left:0;
+        top:0;
+        width:100%;
+        min-height: 100vh;
+        z-index: 99;
+    }
+}
